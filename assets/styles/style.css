@@ -251,6 +251,10 @@ ul > a > li:hover {
   border: 1.5px solid #dfdfdfd3;
 }
 
+.author {
+  font-size: clamp(0.5rem, 0.8vw, 0.8rem);
+}
+
 @media (max-width: 900px) {
   ul > a > li {
     padding: 0.5em 5em;
@@ -287,4 +291,3 @@ ul > a > li:hover {
     font-size: 1rem;
   }
 }
-/*# sourceMappingURL=style.css.map */
